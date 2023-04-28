@@ -7,7 +7,7 @@ export default function ListUsers(props) {
     <Card>
         <ul>
         {props.users && props.users.map((user) =>{
-            return <li>{`${user.name} is of age ${user.age}`}</li>
+            return <li>{`${user.name} ( Age ${user.age})`}</li>
         })}
         </ul>
         
